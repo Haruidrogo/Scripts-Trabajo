@@ -36,7 +36,7 @@ while True:
         tasa_bcv = float(input("1. TASA BCV (Bs/$): ").replace(",", "."))
         costo_bs_inicial = float(input("2. COSTO DEL REPUESTO (Bs): ").replace(",", "."))
 
-        # Lógica de cascada (Tu fórmula secreta)
+        # Lógica de cascada (Mi fórmula secreta)
         usd_base = costo_bs_inicial / tasa_bcv 
         usd_con_iva = usd_base * 0.16
         subtotal_iva = usd_base + usd_con_iva 
@@ -77,4 +77,5 @@ while True:
 
 # Fuera del bucle (cuando escribes 'salir')
 print("\nSaliendo del sistema...")
+
 input("Presiona ENTER para cerrar definitivamente.")
